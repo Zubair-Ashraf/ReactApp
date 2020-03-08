@@ -1,0 +1,47 @@
+@import "/src/App.css";
+
+.package {
+  margin: 10px 10px;
+  width: 230px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.package:hover {
+  cursor: pointer;
+  background: white;
+}
+.package h5 {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+}
+.package h2 {
+  margin-top: 10px;
+  text-align: center;
+  color: var(--cyan);
+}
+.package p {
+  text-align: center;
+  margin-top: 5px;
+  color: var(--cyan);
+}
+.package ul {
+  margin-top: 10px;
+  list-style: none;
+}
+.package ul li {
+  line-height: 2rem;
+  color: gray;
+}
+.package li::before {
+  content: "✓";
+}
+.package button {
+  margin-top: 10px;
+  width: 130px;
+}
+.package button:hover {
+  cursor: pointer;
+  color: var(--cyan);
+}

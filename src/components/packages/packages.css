@@ -1,0 +1,28 @@
+@import "/src/App.css";
+
+.packages {
+  padding: 50px;
+}
+.packages .header {
+  text-align: center;
+}
+.packages .header p {
+  margin-top: 20px;
+  line-height: 1rem;
+  font-size: 12px;
+  color: gray;
+  letter-spacing: 0.05rem;
+}
+.packages .content-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (max-width: 648px) {
+  .packages .header p {
+    font-size: 10px;
+  }
+  .packages .header h1 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,46 @@
+@import "../App.css";
+
+.banner {
+  text-align: center;
+  color: white;
+  max-width: 600px;
+  height: 200px;
+  padding: 30px;
+}
+.banner h1 {
+  letter-spacing: 0.1rem;
+  font-size: 25px;
+  text-align: left;
+}
+.banner h1 span {
+  color: var(--cyan);
+}
+.banner p {
+  font-size: 13px;
+  text-align: left;
+  line-height: 1.2rem;
+  margin-top: 10px;
+}
+.banner .banner-btn {
+  display: flex;
+  padding-top: 20px;
+}
+button {
+  margin-left: 10px;
+}
+button:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 0.5px solid var(--cyan);
+}
+@media screen and (max-width: 650px) {
+  .banner h1 {
+    font-size: 18px;
+  }
+  .banner p {
+    font-size: 11px;
+  }
+  .banner button {
+    font-size: 8px;
+  }
+}

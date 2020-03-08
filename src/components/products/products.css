@@ -1,0 +1,8 @@
+@import "/src/App.css";
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}

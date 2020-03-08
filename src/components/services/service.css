@@ -1,0 +1,33 @@
+@import "/src/App.css";
+
+.service {
+  color: white;
+  padding: 20px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: row;
+}
+.service:hover {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.contents {
+  line-height: 1.1rem;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 20px;
+  color: var(--cyan);
+  font-size: 22px;
+}
+.contents p {
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: justify;
+  color: gray;
+}
+.contents h5 {
+  font-size: 13px;
+}

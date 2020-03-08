@@ -1,0 +1,22 @@
+@import "/src/App.css";
+
+.theme {
+  width: 250px;
+  height: auto;
+  border-bottom: 1px dotted var(--cyan);
+  padding: 20px 20px;
+}
+.theme:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.1);
+}
+.content-body {
+  padding: 20px;
+  padding-left: 0px;
+  text-align: justify;
+  font-size: 13px;
+  color: white;
+}
+.icons {
+  color: white;
+}

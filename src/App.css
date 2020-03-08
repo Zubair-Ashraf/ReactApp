@@ -1,0 +1,43 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  animation: fadeInAnimation ease 2s;
+}
+html {
+  scroll-behavior: smooth;
+ 
+}
+:root {
+  --primary: #007bff;
+  --cyan: #04afb3;
+  --maintransition: all 0.3s ease;
+}
+.btn-cyan {
+  background: var(--cyan);
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  border-radius: 4px;
+}
+.btn-md {
+  font-size: 10px;
+}
+.btn-sm {
+  font-size: 8px;
+}
+.btn-lg {
+  font-size: 12px;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

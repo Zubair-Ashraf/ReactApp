@@ -1,0 +1,29 @@
+@import "/src/App.css";
+
+.product {
+  padding: 30px;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  line-height: 2rem;
+  margin-top: 20px;
+}
+.product p {
+  font-size: 13px;
+  color: gray;
+}
+
+.product :first-child {
+  font-size: 30px;
+  color: #01778f;
+}
+.product:hover {
+  cursor: pointer;
+  /* transform: translatey(-1px); */
+}
+.product:hover :first-child {
+  color: var(--cyan);
+}
+.product h5 {
+  color: black;
+}

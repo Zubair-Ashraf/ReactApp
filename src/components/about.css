@@ -1,0 +1,36 @@
+@import "/src/App.css";
+
+.about {
+  background-image: url("../images/aboutBack.jpg");
+  padding: 30px;
+  /* height: 150px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about-group {
+  margin: 10px 10px;
+  width: 250px;
+  height: auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+.about-group:hover {
+  cursor: pointer;
+}
+.content {
+  background: white;
+  text-align: center;
+  padding: 20px;
+  line-height: 1rem;
+}
+.content h4 {
+  font-size: 13px;
+}
+.content p {
+  padding-top: 10px;
+  line-height: 1.2rem;
+  font-size: 11px;
+  color: gray;
+}

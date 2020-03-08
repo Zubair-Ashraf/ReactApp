@@ -1,0 +1,78 @@
+@import "../App.css";
+@import "https://fonts.googleapis.com/css?family=Orbitron&display=swap";
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 5px 40px;
+  background: #272727;
+  animation: fadeInAnimation ease 3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  width: 100%;
+  display: none;
+  text-align: center;
+  list-style: none;
+}
+.nav-links li {
+  padding: 15px;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  color: white;
+
+  text-transform: uppercase;
+  transition: all 0.9s linear;
+  animation: fadeInAnimation ease 2s;
+}
+.nav-links li:hover {
+  cursor: pointer;
+  background: lightgray;
+  color: black;
+}
+.nav-logo {
+  font-family: Orbitron, sans-serif;
+  padding: 10px;
+  color: var(--cyan);
+}
+.nav-logo:hover {
+  cursor: pointer;
+}
+.nav-btn {
+  color: white;
+  font-size: 1.1rem;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.show-nav {
+  display: block;
+}
+.nav-btn:hover {
+  cursor: pointer;
+}
+@media screen and (min-width: 648px) {
+  .nav-logo {
+    margin-top: 13px;
+  }
+  .nav-btn {
+    display: none;
+  }
+  .nav-center {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav-links li:hover {
+    transform: translatey(-4px);
+  }
+}
